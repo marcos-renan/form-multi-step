@@ -1,18 +1,29 @@
 <!-- Primeira etapa - Cadastrar o usuário -->
- 
-<h1>Cadastrar Usuário</h1>
+ <!DOCTYPE html>
+ <html lang="pt-br">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Usuário</title>
+ </head>
+ <body>
 
-<form method="POST" action="">
+  <h1>Cadastrar Usuário</h1>
 
-  <label>Nome:</label>
-  <input type="text" name="nome" placeholder="Nome completo"> <br><br>
+  <form method="POST" action="">
 
-  <label>E-mail:</label>
-  <input type="email" name="email" placeholder="E-mail"> <br><br>
+    <label>Nome:</label>
+    <input type="text" name="nome" placeholder="Nome completo"> <br><br>
 
-  <label>Senha:</label>
-  <input type="password" name="senha" placeholder="Senha"> <br><br>
+    <label>E-mail:</label>
+    <input type="email" name="email" placeholder="E-mail"> <br><br>
 
-  <button type="submit" name="cadastrar" value="Cadastrar">Cadastrar</button>
+    <label>Senha:</label>
+    <input type="password" name="senha" placeholder="Senha"> <br><br>
 
-</form>
+    <button type="submit" name="cadastrar" value="Cadastrar">Cadastrar</button>
+
+  </form>
+
+ </body>
+ </html>
