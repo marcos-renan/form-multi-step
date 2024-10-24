@@ -4,8 +4,7 @@ session_start(); //iniciando a sessão
 if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
   $_SESSION['etapa'] = 1; //cria a sessão etapa
 }
-$_SESSION['etapa'] = 2;
-
+ $_SESSION['etapa'] = 1;
 ?>
 
 <!DOCTYPE html>
