@@ -1,6 +1,9 @@
 <?php
 session_start(); //iniciando a sessão
 
+//incluir a conexão com o banco de dados
+include_once './conexao.php';
+
 if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
   $_SESSION['etapa'] = 1; //cria a sessão etapa
 }
