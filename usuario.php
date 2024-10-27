@@ -1,6 +1,6 @@
 <!-- Primeira etapa - Cadastrar o usuário -->
  <?php
- 
+
  ?>
 <h1>Cadastrar Usuário</h1>
 
@@ -12,9 +12,6 @@
   <label>E-mail:</label>
   <input type="email" name="email" placeholder="E-mail"> <br><br>
 
-  <label>Senha:</label>
-  <input type="password" name="senha" placeholder="Senha"> <br><br>
-
-  <button type="submit" name="cadastrar" value="Cadastrar">Cadastrar</button>
+  <button type="submit" name="cadUsuario" value="Cadastrar">Cadastrar</button>
 
 </form>

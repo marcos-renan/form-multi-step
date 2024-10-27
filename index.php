@@ -19,6 +19,12 @@ if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
 
  <?php
 
+  //receber os dados do formulario
+  $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
+
+  //salvar os dados do usuario
+  include_once './cadastrar_usuario.php';
+
     if($_SESSION['etapa'] == 1) { //se a etapa for igual a 1
       include('usuario.php'); //inclui a usuario.php
     }
