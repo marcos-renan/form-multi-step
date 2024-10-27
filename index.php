@@ -22,11 +22,20 @@ if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
 
  <?php
 
+  //criar variavel para mensagem de erro ou sucesso
+  $mensagem = "";
+
   //receber os dados do formulario
   $dados = filter_input_array(INPUT_POST, FILTER_DEFAULT);
 
   //salvar os dados do usuario
   include_once './cadastrar_usuario.php';
+  //salvar os dados do endereço
+  include_once './endereco.php';
+
+  //imprimir as mensagens de erro ou sucesso
+  echo $mensagem;
+  $mensagem = "";
 
     if($_SESSION['etapa'] == 1) { //se a etapa for igual a 1
       include('usuario.php'); //inclui a usuario.php
@@ -42,9 +51,6 @@ if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
     }
 
  ?>
-
-    <!-- Link do Bootstrap -->
-     <script src="./bootstrap/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
