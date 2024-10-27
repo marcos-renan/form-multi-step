@@ -7,7 +7,7 @@ include_once './conexao.php';
 if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
   $_SESSION['etapa'] = 1; //cria a sessão etapa
 }
- $_SESSION['etapa'] = 1;
+ //$_SESSION['etapa'] = 1;
 ?>
 
 <!DOCTYPE html>
@@ -31,7 +31,7 @@ if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
   //salvar os dados do usuario
   include_once './cadastrar_usuario.php';
   //salvar os dados do endereço
-  include_once './endereco.php';
+  include_once './cadastrar_endereco.php';
 
   //imprimir as mensagens de erro ou sucesso
   echo $mensagem;

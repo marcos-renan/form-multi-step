@@ -2,7 +2,6 @@
 
 //verificar se o usuario clicou em cadastrar
  if(isset($dados['cadUsuario'])){
-  var_dump($dados);
 
   //verificar se os campos estão preenchidos
   if(empty($dados['nome'])){
@@ -33,7 +32,7 @@
 
       //mensagem de sucesso
       $mensagem = "<p style= 'color:green;'>Usuário cadastrado com sucesso!</p>";
-      
+
     }else {
       $mensagem = "<p style= 'color:red;'>Usuário não cadastrado!</p>";
     }

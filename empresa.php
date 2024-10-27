@@ -12,6 +12,6 @@
   <label>CNPJ:</label>
   <input type="text" name="cnpj" placeholder="CNPJ"> <br><br>
 
-  <button type="submit" name="cadastrar" value="Cadastrar">Cadastrar</button>
+  <button type="submit" name="cadEmpresa" value="Cadastrar">Cadastrar</button>
 
 </form>
