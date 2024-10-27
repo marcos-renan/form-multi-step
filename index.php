@@ -32,6 +32,8 @@ if(!isset($_SESSION['etapa'])) { //se não existir a sessão etapa
   include_once './cadastrar_usuario.php';
   //salvar os dados do endereço
   include_once './cadastrar_endereco.php';
+  //salvar os dados da empresa
+  include_once './cadastrar_empresa.php';
 
   //imprimir as mensagens de erro ou sucesso
   echo $mensagem;
